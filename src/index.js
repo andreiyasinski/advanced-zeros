@@ -25,7 +25,7 @@ module.exports = function getZerosCount(number, base) {
   }
 
 
-  while(num > 0)
+  while(num > divider)
   {
     num /= divider;
     result += Math.floor(num);
